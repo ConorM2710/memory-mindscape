@@ -6,10 +6,38 @@
 
 body {
     height: 100vh;
+    display: flex;
     background: darkgray;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+
+.game-container {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 2px solid lime;
 }
+
+.game-card {
+    width: calc(14.285% - 10px);
+    height: calc(23.33% - 10px);
+    position: relative;
+    margin: 5px;
+    border: 2px solid aqua;
+}
+
+ .face-up, .face-down {
+    width: 100%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    position:absolute;
+    margin-top: 15%;
+    background-color: brown;
+    border: 2px solid deeppink;
+}
+
+
+
