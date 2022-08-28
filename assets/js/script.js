@@ -14,16 +14,26 @@ if (!hasCardFlipped) {
         hasCardFlipped = false;
         secondCard = this;
 
-        if (firstCard.dataset.framework === secondCard.dataset.framework) {
-        firstCard.removeEventListener('click', turnCard);
-        secondCard.removeEventListener('click', turnCard);
-        } else {
-            setTimeout(() => {
-            firstCard.classList.remove('flip');
-            secondCard.classList.remove('flip');
-            }, 1500);
-        }
+    checkingForMatch();
     }
+}
+
+function checkingForMatch(){
+       let isPair = firstCard.dataset.framework === secondCard.dataset.framework;
+
+       isPair ? stopCards() : resetCards();
+    } 
+
+function stopCards() {
+    firstCard.removeEventListener('click', turnCard);
+    secondCard.removeEventListener('click', turnCard);
+}
+
+function resetCards() {
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+        }, 1500);
 }
 
 cards.forEach(card => card.addEventListener('click', turnCard));
