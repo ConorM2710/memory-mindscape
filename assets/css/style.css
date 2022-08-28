@@ -10,6 +10,13 @@ body {
     background: black
 }
 
+h1 {
+    color: #42f578;
+    text-align: center;
+    font-size: 3em;
+    height: 100px;
+    float: right;
+}
 
 .game-container {
     width: 640px;
