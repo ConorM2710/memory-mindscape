@@ -17,7 +17,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    border: 2px solid lime;
 }
 
 .game-card {
@@ -25,7 +24,7 @@ body {
     height: calc(23.33% - 10px);
     position: relative;
     margin: 5px;
-    border: 2px solid aqua;
+    transform: scale(1);
 }
 
  .face-up, .face-down {
@@ -36,8 +35,9 @@ body {
     position:absolute;
     margin-top: 15%;
     background-color: brown;
-    border: 2px solid deeppink;
-}
+ }
 
-
-
+ .game-card:active {
+    transform: scale(.87);
+    transition: .2s;
+ }
