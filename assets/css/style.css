@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Silkscreen&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -10,12 +11,37 @@ body {
     background: black
 }
 
+.header {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 500px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
 h1 {
     color: #42f578;
-    text-align: center;
     font-size: 3em;
-    height: 100px;
-    float: right;
+    font-family: 'Silkscreen', cursive;
+    position: relative;
+}
+
+
+.rule {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Chakra Petch', sans-serif;
+    position: relative;
+    margin: auto;
+    text-align: center;
+
+}
+
+#countdown {
+    font-family: 'Silkscreen', cursive;
+    color: #42f578;
+    font-size: 3em;
 }
 
 .game-container {
@@ -25,6 +51,8 @@ h1 {
     flex-wrap: wrap;
     margin: auto;
     perspective: 1000px;
+    box-sizing: border-box;
+    margin-right: 200px;
 }
 
 .game-card {
