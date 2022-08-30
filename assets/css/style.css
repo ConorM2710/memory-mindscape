@@ -88,4 +88,11 @@ h1 {
  .game-card.flip {
     transform: rotateY(180deg);
  }
- 
+
+ #shuffle-button {
+    position: absolute;
+    size: 100px;
+
+ }
+
+  
