@@ -1,4 +1,4 @@
-alert('Hurry the timer has begun!!')
+alert('Hurry the timer will start after this alert')
 
 /* js for the card game */
 const cards = document.querySelectorAll('.game-card');
@@ -59,8 +59,12 @@ function resetBoard(){
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 28);
         card.style.order = randomPos;
+
     });
 })();
+
+
+
 
 cards.forEach(card => card.addEventListener('click', turnCard));
 
@@ -80,8 +84,10 @@ function updateCountdown() {
 
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
-    countdownEl.innerHTML = `${minutes}: ${seconds}`;
+    countdownEl.innerHTML = `${minutes}:${seconds}`;
 
-    time--;
+    time--;  
+    
  }
-                     
+
+                  
