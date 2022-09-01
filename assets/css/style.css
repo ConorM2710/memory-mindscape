@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* main body and type styling */
 body {
     height: 100vh;
     display: flex;
@@ -42,6 +43,7 @@ h1 {
     position: absolute;
     size: 300px;
     position: relative;
+    background-color: #42f578;
 }
 
 #countdown {
@@ -50,6 +52,7 @@ h1 {
     font-size: 3em;
 }
 
+/* card game styling */
 .game-container {
     width: 640px;
     height: 640px;
@@ -95,6 +98,129 @@ h1 {
     transform: rotateY(180deg);
  }
 
- 
+ /* responsive styling */
 
-  
+ @media screen and (max-width:1457px) {
+    .header {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 500px;
+        text-align: center;
+        margin-top: 150px;
+    
+    }
+    
+    h1 {
+        color: #42f578;
+        font-size: 2em;
+        font-family: 'Silkscreen', cursive;
+        position: relative;
+    }
+    
+    
+    .rule {
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Chakra Petch', sans-serif;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #shuffle-button {
+        font-family: 'Silkscreen', cursive;
+        position: absolute;
+        size: 300px;
+        position: relative;
+        background-color: #42f578;
+    }
+    
+    #countdown {
+        font-family: 'Silkscreen', cursive;
+        color: #42f578;
+        font-size: 2em;
+    }
+
+    .game-container {
+        width: 540px;
+        height: 540px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        perspective: 1000px;
+        box-sizing: border-box;
+    }
+ }
+
+ @media screen and (max-width:1050px) {
+    .header {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 500px;
+        text-align: center;
+        margin-top: 150px;
+    
+    }
+    
+    h1 {
+        color: #42f578;
+        font-size: 2em;
+        font-family: 'Silkscreen', cursive;
+        position: relative;
+    }
+    
+    
+    .rule {
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Chakra Petch', sans-serif;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #shuffle-button {
+        font-family: 'Silkscreen', cursive;
+        position: absolute;
+        size: 300px;
+        position: relative;
+        background-color: #42f578;
+    }
+    
+    #countdown {
+        font-family: 'Silkscreen', cursive;
+        color: #42f578;
+        font-size: 2em;
+    }
+
+    .game-container {
+        width: 740px;
+        height: 740px;
+        display: flex;
+        flex-wrap: wrap;
+        perspective: 1000px;
+        box-sizing: border-box;
+        margin-bottom: -350px;
+    }
+
+    .game-card {
+        width: calc(19.285% - 10px);
+        height: calc(13.33% - 10px);
+        position: relative;
+        margin: 10px;
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: .5s;
+    }
+
+    .face-up, .face-down {
+        width: 50%;
+        width: 50%;
+        padding: 5px;
+        border-radius: 10px;
+        position:absolute;
+        margin-top: 15%;
+        background-color: #42f578;
+        backface-visibility: hidden;
+     } 
+ }

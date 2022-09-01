@@ -1,4 +1,4 @@
-alert('Hurry the timer will start after this alert')
+alert('The countdown timer will start after this alert')
 
 /* js for the card game */
 const cards = document.querySelectorAll('.game-card');
@@ -7,6 +7,8 @@ let hasCardFlipped = false;
 let holdBoard = false
 let firstCard, secondCard;
 
+
+/* rotates the card over to reveal symbol*/
 function turnCard(){
     if (holdBoard) return;
     if (this === firstCard) return;
@@ -25,7 +27,7 @@ if (!hasCardFlipped) {
 
     checkingForMatch();
     }
-
+/* checks if both cards revealed are a matching pair*/
 function checkingForMatch(){
        let isPair = firstCard.dataset.framework === secondCard.dataset.framework;
 
@@ -64,12 +66,12 @@ function resetBoard(){
     });
 })();
 */
-
+/* shuffles the order of the cards */
 function reset() {
     cards.forEach(card => {
-        let randomPos = Math.floor(Math.random() * 28);
+        let randomPos = Math.floor(Math.random() * 29);
         card.style.order = randomPos;
-        
+
 
     });
 };
@@ -100,5 +102,7 @@ function updateCountdown() {
     time--;  
     
  }
+
+
 
                   
