@@ -35,7 +35,13 @@ h1 {
     position: relative;
     margin: auto;
     text-align: center;
+}
 
+#shuffle-button {
+    font-family: 'Silkscreen', cursive;
+    position: absolute;
+    size: 300px;
+    position: relative;
 }
 
 #countdown {
@@ -89,10 +95,6 @@ h1 {
     transform: rotateY(180deg);
  }
 
- #shuffle-button {
-    position: absolute;
-    size: 100px;
-
- }
+ 
 
   

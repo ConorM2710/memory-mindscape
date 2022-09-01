@@ -55,6 +55,7 @@ function resetBoard(){
     [firstCard, secondCard] = [null, null];
 }
 
+/*
 (function reset() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 28);
@@ -62,6 +63,16 @@ function resetBoard(){
 
     });
 })();
+*/
+
+function reset() {
+    cards.forEach(card => {
+        let randomPos = Math.floor(Math.random() * 28);
+        card.style.order = randomPos;
+        
+
+    });
+};
 
 
 
