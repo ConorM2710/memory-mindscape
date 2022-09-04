@@ -67,19 +67,19 @@ function resetBoard(){
 })();
 */
 /* shuffles the order of the cards */
-function reset() {
+(function reset() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 29);
         card.style.order = randomPos;
-
-
     });
-};
-
-
-
+    
+})();
 
 cards.forEach(card => card.addEventListener('click', turnCard));
+
+
+
+
 
 /* js for the timer */
 
@@ -94,11 +94,10 @@ setInterval(updateCountdown, 1000);
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
-    if(seconds < 1) {
-        clearInterval(updateCountdown)
-    }
+
 
     seconds = seconds < 10 ? '0' + seconds : seconds;
+    
 
     countdownEl.innerHTML = `${minutes}:${seconds}`;
 
