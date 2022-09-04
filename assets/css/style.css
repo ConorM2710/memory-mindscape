@@ -151,7 +151,7 @@ h1 {
         box-sizing: border-box;
     }
  }
-
+/* responsive styling */
  @media screen and (max-width:1050px) {
     .header {
         max-width: 600px;
@@ -187,10 +187,12 @@ h1 {
         background-color: #42f578;
     }
     
-    #contdown{
+    #countdown{
         font-family: 'Silkscreen', cursive;
         color: #42f578;
         font-size: 2em;
+        margin-right: -600px;
+        margin-top: -150px;
     }
     .game-container {
         width: 540px;
@@ -210,60 +212,3 @@ h1 {
 
  }
 
- @media screen and (max-width:350px) {
-    .header {
-        max-width: 600px;
-        margin: auto;
-        margin-bottom: 500px;
-        text-align: center;
-        margin-top: 10px;
-    
-    }
-    
-    h1 {
-        color: #42f578;
-        font-size: 2em;
-        font-family: 'Silkscreen', cursive;
-        position: relative;
-    }
-    
-    
-    .rule {
-        color: #ffffff;
-        font-size: 1em;
-        font-family: 'Chakra Petch', sans-serif;
-        position: relative;
-        margin: auto;
-        text-align: center;
-    }
-    
-    #shuffle-button {
-        font-family: 'Silkscreen', cursive;
-        position: absolute;
-        size: 300px;
-        position: relative;
-        background-color: #42f578;
-    }
-    
-    #contdown{
-        font-family: 'Silkscreen', cursive;
-        color: #42f578;
-        font-size: 2em;
-    }
-    .game-container {
-        width: 540px;
-        height: 540px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        perspective: 1000px;
-        box-sizing: border-box;
-        position: absolute;
-        margin-top: 390px;
-    }
-
-
-
-    
-
- }
