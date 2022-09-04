@@ -94,6 +94,9 @@ setInterval(updateCountdown, 1000);
 function updateCountdown() {
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
+    if(seconds < 1) {
+        clearInterval(updateCountdown)
+    }
 
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
