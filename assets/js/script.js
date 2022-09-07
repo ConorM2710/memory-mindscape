@@ -59,13 +59,13 @@ function resetBoard(){
 }
 
 // shuffles the deck upon refreshing the page
-(function reset() {
+function reset() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 29);
         card.style.order = randomPos;
     });
     
-})();
+};
 
 cards.forEach(card => card.addEventListener('click', turnCard));
 

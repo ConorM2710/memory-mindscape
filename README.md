@@ -44,4 +44,13 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 - [x] When the user clicks on the second card and it is a match does it remain flipped over.
 - [x] When the user clicks on the second card and it is not a match do both cards simultaneously flip back over.
 
+### Responsivity of my site
+- [x] I have tested that this site works in different browsers.
+- [x] Utilising media queries I have tested to ensure that this site is viable across multiple screen sizes, as you can see in the first image of this README it shows a screenshot of the site being displayed on deivces with different viewports
+
+### Navigation
+- [x] Due to the site only needing a single page navigation is simple as everything the user needs is on the main page.
+
+### Problems that arose and how they were overcome
+ 1. 
 
