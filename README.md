@@ -64,14 +64,14 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 
 ## Validator Testing
 **HTML testing**
-No errors were found when passed through the official [HTML Validator](https://validator.w3.org/)
+- No errors were found when passed through the official [HTML Validator](https://validator.w3.org/)
 
 **CSS testing**
-No errors were found when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
-[css screenshot](./assets/images/css-validator.png)
+- No errors were found when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
+![css screenshot](./assets/images/css-validator.png)
 
 **Javascript testing**
-No errors were found when passed through the official [JShint validator](https://jshint.com/)
+- No errors were found when passed through the official [JShint validator](https://jshint.com/)
 
 The following statistics were returned
 - There are 11 functions in this file.
@@ -80,7 +80,7 @@ The following statistics were returned
 - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
 
 **Lighthouse Results**
-[lightouse test results](./assets/images/lightouse-result.png)
+![lightouse test results](./assets/images/lightouse-result.png)
 
 
 
