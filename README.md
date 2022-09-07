@@ -52,5 +52,15 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 - [x] Due to the site only needing a single page navigation is simple as everything the user needs is on the main page.
 
 ### Problems that arose and how they were overcome
- 1. 
+#### The Issues
+ 1. The game container had the cards all spread out across one row resulting in a very awkward and unplayable game.
+ 2. The game container overflowed out of the set height of the container.
+ 3. During the site responsivity testing the mobile and tablet display vieport had a horizontal scroll bar issue.
+ 
+#### The solution
+1. I had forgotten one simple but very important component and that was to add a `flex-wrap:wrap;` to the game-container which resulted in the desired layout.
+2. To solve this I played around with the calculated width and height percentages to negate the overflow and also have a even container e.g all the rows having the same amount of cards.
+3. I researched online and saw that some simple styling code `html, body {max-width: 100%;overflow-x: hidden;}` solved the horizontal scrolling issue.
+
+
 
