@@ -82,5 +82,18 @@ The following statistics were returned
 **Lighthouse Results**
 ![lightouse test results](./assets/images/lightouse-result.png)
 
+## Deployment
+- This site was deployed to GitHub pages
+1. I naviagted to the settings tab in the GitHub repository
+2. I then went to the pages tab in the code and automation section
+3. I then selected the main branch from the source drop-down menu
+4. Once I had selected the main branch I then refreshed the page after a few minutes and the green tick indicated that the site had been deployed.
 
+The link to the live site can be found here [Live site]()
 
+## Credits
+
+### Content
+
+### Media
+- the svg icons used on my site are from [Font Awesome](https://fontawesome.com/)
