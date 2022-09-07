@@ -217,3 +217,28 @@ h1 {
 
  }
 
+ @media screen and (max-width:550px) {
+    .game-container {
+        width: 340px;
+        height: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        perspective: 1000px;
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 410px;
+    }
+
+    .game-card {
+        width: calc(13.285% - 10px);
+        height: calc(23.33% - 10px);
+        position: relative;
+        margin: 5px;
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: .5s;
+    }
+
+ }
+
