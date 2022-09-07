@@ -4,7 +4,7 @@ alert('The countdown timer will start after this alert, match all the pairs to b
 const cards = document.querySelectorAll('.game-card');
 
 let hasCardFlipped = false;
-let holdBoard = false
+let holdBoard = false;
 let firstCard, secondCard;
 
 

@@ -62,5 +62,25 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 2. To solve this I played around with the calculated width and height percentages to negate the overflow and also have a even container e.g all the rows having the same amount of cards.
 3. I researched online and saw that some simple styling code `html, body {max-width: 100%;overflow-x: hidden;}` solved the horizontal scrolling issue.
 
+## Validator Testing
+**HTML testing**
+No errors were found when passed through the official [HTML Validator](https://validator.w3.org/)
+
+**CSS testing**
+No errors were found when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
+[css screenshot](./assets/images/css-validator.png)
+
+**Javascript testing**
+No errors were found when passed through the official [JShint validator](https://jshint.com/)
+
+The following statistics were returned
+- There are 11 functions in this file.
+- The function with the largest signature take 1 arguments, while the median is 0.
+- The largest function has 18 statements in it, while the median is 2.
+- The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+
+**Lighthouse Results**
+[lightouse test results](./assets/images/lightouse-result.png)
+
 
 
