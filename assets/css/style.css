@@ -231,8 +231,8 @@ h1 {
     }
 
     .game-card {
-        width: calc(13.285% - 10px);
-        height: calc(23.33% - 10px);
+        width: calc(23.285% - 10px);
+        height: calc(33.33% - 10px);
         position: relative;
         margin: 5px;
         transform: scale(1);
