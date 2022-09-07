@@ -6,18 +6,42 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 
 ![responsive-design-layout](./assets/images/responsive-design.png)
 
-## Memory Mindscape Heading
+## Features
+
+### Memory Mindscape Heading
 - The Memory Mindscape heading is featured on the left side of the screen, utilising a bright green color and a different font from the "rules" section, it clearly defines itself as a heading and the name of the game. The name is also featured in the tab at the top of the page to furthermore reiterate the game's name.
 
 ![heading](./assets/images/heading.png)
 
-## Game Container
+### Game Container
 - This section allows the user to interact with and participate in the game. The user can select a card, watch it flip over and try and find the matching pair, failure to do so will result in both cards simultaneuosly flippng back over where now the user can go again.
 - This process is repeated until the user matches all pairs.
 
 ![game-area](./assets/images/game-area.png)
 
-## The Rules section
+### The Rules section
 - In this section the user will be able to quickly understand how the game is played and what they must do to achieve a victory.
 
 ![rules](./assets/images/rules.png)
+
+### The Countdown Timer
+- The Countdown Timer aims to bring about a sense of urgency and difficulty to the game.
+- The timer is located directly underneath the "rules" section and is styled the same way as the heading to allow for it to stand out be easily readable.
+
+![countdown-timer](./assets/images/timer.png)
+
+### Features Left to Implement
+- A feature I believe that would add to the overall user experience for this game would be a "shuffle" function where the user can click a button and it will shuffle the deck, currently the method to restart and "shuffle" the deck is to refresh the page which will randomise the deck each time and reset the clock.
+- I would also like to implement a score tracker alongside the "shuffle" button so that the user can see they're current fastest time and attempt to beat that record.
+
+## Testing
+- Mentioned below is a list of tasks that my Javascript must execute in order for the game to work accordingly.
+
+- [x] Before the game starts is there an alert to allow the user some basic knowledge of the game.
+- [x] Does the timer countdown from 2:00 after the user has clicked out of the alert.
+- [x] Does the game stop the user from flipping over more than two cards in one turn.
+- [x] When the user clicks on a card does the card "flip" over to reveal a symbol.
+- [x] When the user clicks on the second card and it is a match does it remain flipped over.
+- [x] When the user clicks on the second card and it is not a match do both cards simultaneously flip back over.
+
+

@@ -1,4 +1,4 @@
-alert('The countdown timer will start after this alert, match all the pairs to beat the game')
+alert('The countdown timer will start after this alert, match all the pairs to beat the game');
 
 /* js for the card game */
 const cards = document.querySelectorAll('.game-card');
@@ -13,7 +13,7 @@ function turnCard(){
     if (holdBoard) return;
     if (this === firstCard) return;
 
-    this.classList.add("flip")
+    this.classList.add("flip");
 
 
 if (!hasCardFlipped) {
@@ -58,7 +58,7 @@ function resetBoard(){
     [firstCard, secondCard] = [null, null];
 }
 
-// shuffles the decl upon refreshing the page
+// shuffles the deck upon refreshing the page
 (function reset() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 29);
