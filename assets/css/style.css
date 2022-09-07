@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* prevent horizontal scrolling issues*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /* main body and type styling */
 body {
     height: 100vh;
@@ -191,8 +197,7 @@ h1 {
         font-family: 'Silkscreen', cursive;
         color: #42f578;
         font-size: 2em;
-        margin-right: -600px;
-        margin-top: -150px;
+
     }
     .game-container {
         width: 540px;
@@ -203,7 +208,7 @@ h1 {
         perspective: 1000px;
         box-sizing: border-box;
         position: absolute;
-        margin-top: 390px;
+        margin-top: 410px;
     }
 
 
