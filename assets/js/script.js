@@ -29,6 +29,7 @@ if (!hasCardFlipped) {
     }
     
 /* checks if both cards revealed are a matching pair*/
+/* I rewatched the "love Maths" video tutorials specifically the "Calculating the Correct Answer" video to implement the checkingForMatch*/
 function checkingForMatch(){
        let isPair = firstCard.dataset.framework === secondCard.dataset.framework;
 
@@ -59,6 +60,7 @@ function resetBoard(){
 }
 
 // shuffles the deck upon refreshing the page
+/* tutorial used to aid in the randomisation function can be found in the credits section of the README*/
 (function reset() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random() * 29);
@@ -74,6 +76,7 @@ cards.forEach(card => card.addEventListener('click', turnCard));
 
 
 /* js for the timer */
+/* tutorial for the countdown timer can be found in the credits section in the README*/
 
 const startingMinutes = 2;
 let time = startingMinutes * 60;
