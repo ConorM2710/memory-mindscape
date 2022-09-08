@@ -1,6 +1,6 @@
 # Memory Mindscape
 
-Memory Mindscape utilises Javascript to allow the user to participate in a fun and interactive memory game. The site is targeted at people who want to test themselves mentally.
+Memory Mindscape utilises Javascript to allow the user to participate in a fun and interactive memory game. The site is targeted at people who are competitive and want to test themselves mentally.
 
 The site has been designed to look and feel "retro", this effect was achiveved by using pixelated font and a black and green color scheme much like the old green phosphorus monochrome computer screens.
 
@@ -14,7 +14,7 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 ![heading](./assets/images/heading.png)
 
 ### Game Container
-- This section allows the user to interact with and participate in the game. The user can select a card, watch it flip over and try and find the matching pair, failure to do so will result in both cards simultaneuosly flippng back over where now the user can go again.
+- This section allows the user to interact with and participate in the game. The user can select a card, watch it flip over and try and find the matching pair, failure to do so will result in both cards simultaneously flippng back over where now the user can go again.
 - This process is repeated until the user matches all pairs.
 
 ![game-area](./assets/images/game-area.png)
@@ -26,7 +26,7 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 
 ### The Countdown Timer
 - The Countdown Timer aims to bring about a sense of urgency and difficulty to the game.
-- The timer is located directly underneath the "rules" section and is styled the same way as the heading to allow for it to stand out be easily readable.
+- The timer is located directly underneath the "rules" section and is styled the same way as the heading to allow for it to stand out and be easily readable.
 
 ![countdown-timer](./assets/images/timer.png)
 
@@ -45,17 +45,17 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 - [x] When the user clicks on the second card and it is not a match do both cards simultaneously flip back over.
 
 ### Responsivity of my site
-- [x] I have tested that this site works in different browsers.
-- [x] Utilising media queries I have tested to ensure that this site is viable across multiple screen sizes, as you can see in the first image of this README it shows a screenshot of the site being displayed on deivces with different viewports
+- I have tested that this site works in different browsers.
+- Utilising media queries I have tested to ensure that this site is viable across multiple screen sizes, as you can see in the first image of this README it shows a screenshot of the site being displayed on deivces with different viewports
 
 ### Navigation
-- [x] Due to the site only needing a single page navigation is simple as everything the user needs is on the main page.
+- Due to the site only needing a single page navigation is simple as everything the user needs is on the main page.
 
 ### Problems that arose and how they were overcome
 #### The Issues
- 1. The game container had the cards all spread out across one row resulting in a very awkward and unplayable game.
- 2. The game container overflowed out of the set height of the container.
- 3. During the site responsivity testing the mobile and tablet display vieport had a horizontal scroll bar issue.
+1. The game container had the cards all spread out across one row resulting in a very awkward and unplayable game.
+2. The game container overflowed out of the set height of the container.
+3. During the site responsivity testing the mobile and tablet display vieport had a horizontal scroll bar issue.
  
 #### The solution
 1. I had forgotten one simple but very important component and that was to add a `flex-wrap:wrap;` to the game-container which resulted in the desired layout.
@@ -65,6 +65,7 @@ The site has been designed to look and feel "retro", this effect was achiveved b
 ## Validator Testing
 **HTML testing**
 - No errors were found when passed through the official [HTML Validator](https://validator.w3.org/)
+![html screenshot](./assets/images/memory-html-validator.png)
 
 **CSS testing**
 - No errors were found when passed through the official [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -89,11 +90,18 @@ The following statistics were returned
 3. I then selected the main branch from the source drop-down menu
 4. Once I had selected the main branch I then refreshed the page after a few minutes and the green tick indicated that the site had been deployed.
 
-The link to the live site can be found here [Live site]()
+The link to the live site can be found here [Live site](https://conorm2710.github.io/memory-mindscape/)
 
 ## Credits
 
 ### Content
+- For the `game-container` div I utilised a youtube tutorial to help in organising and shaping my container.
+[Tutorial linked here](https://www.youtube.com/watch?v=28VfzEiJgy4) I used from to 11:35 - 13:00.
+- For the javascript countdown timer I watched and followed the tutorial from this [Video](https://www.youtube.com/watch?v=x7WJEmxNlEs).
+- I used the "Calculating the Correct Answer" from the "Love Maths" tutorial to help in implementing the checkingForMatch function.
+- Using both the codeinstitute tutorials on arrays and [this tutorial](https://www.youtube.com/watch?v=5sNGqsMpW1E) I was able to randomise my deck upon each refresh of the site.
+- The 3D and rotating of the cards styling was from a [tutorial](https://www.youtube.com/watch?v=QGVXmoZWZuw) by the channel Tyler Potts, skip to 7:00.
+- To help with writing some of my javascript I used Stackoverflow [this page](https://stackoverflow.com/questions/4156101/copy-array-items-into-another-array) in particular had useful informtaion.
 
 ### Media
 - the svg icons used on my site are from [Font Awesome](https://fontawesome.com/)
