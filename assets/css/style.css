@@ -62,6 +62,7 @@ h1 {
     margin-right: 200px;
 }
 
+/* I used stackoverflow to learn the calc width and height method https://stackoverflow.com/questions/32419586/css-calculated-width-adds-margin */
 .game-card {
     width: calc(14.285% - 10px);
     height: calc(23.33% - 10px);
